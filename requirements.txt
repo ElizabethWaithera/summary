@@ -1,0 +1,10 @@
+Flask
+langchain
+langchain-community
+langchain-together
+python-dotenv
+requests
+twilio
+gunicorn
+youtube-transcript-api
+python-dotenv
