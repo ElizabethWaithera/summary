@@ -11,9 +11,9 @@ from twilio.rest import Client
 app = Flask(__name__)
 
 # Initialize the Twilio client
-twilio_account_sid = os.environ.get('TWILIO_ACCOUNT_SID')
-twilio_auth_token = os.environ.get('TWILIO_AUTH_TOKEN')
-twilio_client = Client(twilio_account_sid, twilio_auth_token)
+#twilio_account_sid = os.environ.get('TWILIO_ACCOUNT_SID')
+#twilio_auth_token = os.environ.get('TWILIO_AUTH_TOKEN')
+#twilio_client = Client(twilio_account_sid, twilio_auth_token)
 
 # Initialize the language model
 llm = ChatTogether(api_key=os.environ.get('TOGETHER_API_KEY'), temperature=0.0, 
